@@ -17,3 +17,6 @@ You will be graded on the exhaustiveness and quality of your unit tests, the dep
 - Considered the canditate check refactoring to create a single line with "not a string codition", but maybe the hash function returns a number or anything that is not a string, let's not trust it this time. I didn't looked over it's documentation so I want to be safe.
 
 I believe that my solution is a bit cleaner since we can read it as a process of setting a canditate, then checking if it is not a string in order to set it as one, then checking it's length.
+
+I exported a const and the hash function for testing, I know they can be taken by other ways, without exporting them, but not on Sunday night :) 
+The const can be exported, so it is easier to get some context for this function.
