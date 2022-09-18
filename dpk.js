@@ -17,7 +17,6 @@ const deterministicPartitionKey = (event) => {
     const data = JSON.stringify(event);
     candidate = calculateCanditateHash(data);
   }
-  console.log(candidate)
 
   if (typeof candidate !== "string") {
       candidate = JSON.stringify(candidate);
